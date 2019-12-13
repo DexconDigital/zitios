@@ -1,0 +1,535 @@
+@import 'regular.css';
+@import 'fuentes.css';
+/* Fuentes */
+body{
+    font-family: 'lane-narrow', sans-serif;
+    background: #f8f3f3 no-repeat;
+    font-weight: 900;
+}
+label, button{
+    font-family: 'coolvetica_rg';
+    font-weight: 100;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'coolvetica_rg';
+}
+.color-negro{
+  color: #000 !important;
+}
+.sevice_title{
+  padding-top: 3em;
+}
+.sevice_title .title_block {
+  position: relative;
+  font-weight: 500;
+  text-transform: none;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.sevice_title .title_block:before {
+  content: "";
+  background: #ea393e;
+  position: absolute;
+  width: 70px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.sevice_title .title_block.q:before{
+ margin: 0;
+}
+#carousel{
+  position: relative;
+}
+
+#carousel .fondo{
+  color:#fff;
+  padding-top:10%;
+}
+#carousel .container.borde{
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#carousel .box-text{
+  border:none;
+  font-weight: 800;
+  font-size: 1.3em;
+}
+#carousel .box-text.avanzadas{
+  font-size:0.9em;
+  border:none;
+  font-weight: 700;
+}
+
+#carousel label{
+  color: #ea393e;
+}
+#carousel .overlay .container,
+#carousel .overlay .row, #carousel .form-overlay .container, #carousel .form-overlay .row{
+  height: 100%;
+}
+#hero .busqueda-avanzada{
+  width: 80%;
+  margin: 0 10%;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  border-radius:0 0 10px 10px;
+}
+#hero .opciones-avanzadas{
+  border:none;
+  margin: 0 10%;
+  border-radius:0;
+  color:#000;
+}
+#informacion{
+  background-color: #fff;
+}
+#informacion .font{
+  background-color: #ea393e;;
+}
+
+#informacion .separador {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#informacion p{
+  font-family: 'lane-narrow';   
+  font-weight: 600; 
+}
+#informacion .btn-light{
+  font-weight: 700;
+}
+#informacion .btn-light:hover{
+  background-color: #424242;
+  color: #fff;
+  border-color: #424242;
+}
+#informacion .card{
+  border-color: transparent;
+}
+#informacion .text-quienes{
+  color: #dcdada;
+  font-weight: 700;
+}
+#informacion .card-body{
+  text-align: center;
+}
+#formulario a{
+  color: #ea393e;
+}
+#formulario a:hover{
+  color: #ea393e;
+  text-decoration: underline;
+}
+.fa-key, .fa-dollar-sign, .fa-search-dollar{
+  font-size: 30px;
+  color: #ea393e; 
+}
+.img-rounded{
+  border-radius: 50%;
+  width: 100%;
+}
+
+.navbar-nav > li > a {
+  color: #fff;
+  text-align: center;
+  font-family: 'coolvetica_rg';
+  font-weight: 500;
+}
+.titulo{
+  margin: 50px 0;
+  padding-bottom: 10px;
+}
+.contenedor-img{
+position: relative;
+overflow: hidden;
+}
+.description-inmueble::after, .description-inmueble::before{
+  box-sizing: inherit;
+}
+/* overlay de la propiedad inmueble */
+.leo-extra{
+  position: absolute;
+  bottom: 0;
+  height: 36px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+.leo-extra .control-label.leo-sqft{
+  width: 38%
+}
+.leo-extra .control-label.leo-admin{
+  width: 30%
+}
+.leo-extra .control-label{
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 36px;
+  width: 16%;
+  text-align: center;
+  clear: inherit;
+  border-right: 1px solid rgba(255,255,255,.2);
+  float: left;
+}
+.product-flags{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  margin: 0;
+}
+.product-flags2{
+  position: absolute;
+  top: 15px;
+  left: -20px;
+  margin: 0;;
+}
+.product-flags3{
+  position: absolute;
+    bottom: 47px;
+    left: -20px;
+    margin: 0;
+}
+.product-flags4{
+    position: absolute;
+    bottom: 47px;
+    right: 15px;
+    margin: 0;
+}
+
+.product-flags .product-flag, .product-flags2 .product-flag, .product-flags3 .product-flag, .product-flags4 .product-flag{
+  display: inline-block;
+  padding: 0 10px;
+  color: #fff;
+  background-color: #ea393e;;
+  font-size: 1em;
+  font-weight: 500;
+  height: 24px;
+  line-height: 24px;
+  z-index: 2;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+/* Carousel efectos */
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #ea393e;;
+  width: 39px;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+#destacadas .owl-carousel{
+  margin-bottom: 70px;
+}
+
+.owl-nav{
+  display: none;
+}
+.owl-dots{
+  padding-top: 4%;
+}
+
+/* Agentes */
+#agentes a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+#agentes span{
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #ea393e;;
+}
+
+#aliados{
+  background-color: #fff;
+}
+#aliados .container-fluid{
+  padding-bottom: 80px;
+}
+#aliados .titulo{
+  padding-top: 100px;
+}
+#aliados .item{
+    height: 160px;
+}
+#aliados .item img{
+    height: 100%;
+    width: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+#aliados .item img:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+/* Estilos del breadcrumb */
+.breadcrumb{
+  background-color: inherit;
+}
+.bread{
+  margin-top:120px;
+}
+.bread ul{
+  padding: 10px 0;
+  list-style: none;
+}
+.bread ul>li{
+  display: inline;
+  font-size: 18px;
+}
+.bread ul li+li::before{
+  padding: 8px;
+  color: black;
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f105";
+}
+.bread ul li a{
+  color: #424242;
+  text-decoration: none;
+  font-weight: 900;
+}
+.bread ul li a:hover{
+  color: #ea393e;;
+  text-decoration: none;
+  font-weight: 900;
+}
+.bread ul li:last-child{
+  color: #ea393e;;
+  font-weight: 900;
+}
+.inmuebles .card{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* Detalle inmueble */
+
+#inmueble .borde{
+  padding-top: 1rem;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+.inmuebles-description li {
+    display: inline-block;
+    margin-right: 15px;
+    padding-right: 17px;
+    margin-bottom: 0.5rem;
+}
+#inmueble h3{
+  color:#ea393e;
+}
+#inmueble .card.inmueble{
+  padding: 2em;
+  margin: 1.5rem 0;
+}
+#inmueble #agente a{
+  color: inherit;
+}
+#p_similares .contenedor-img{
+  height: 225px;
+}
+#aliados .item{
+  display: flex;
+  justify-content: center;
+}
+.redes-sociales ul{
+  list-style: none;
+  text-decoration: none;
+  background-color: #fff;
+  padding-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 1px;
+}
+.redes-sociales i{
+  font-size: 1.5rem !important;
+}
+
+.redes-sociales li a{
+  list-style: none;
+  text-decoration: none;
+}
+.redes-sociales .fa-facebook-square{
+  color: #3b5998 ;
+}
+.redes-sociales .fa-instagram{
+  color:#d6249f;
+}
+.redes-sociales .fa-twitter{
+  color: #00acee;
+}
+.redes-sociales .fa-whatsapp{
+  color: #25d366;
+}
+.redes-sociales li i:hover{
+  transform: scale(1.5);
+}
+
+#ubicacion{
+  overflow: hidden;
+}
+.hero-fondo img{
+  max-height: 500px;
+}
+/* fin detalle inmueble */
+footer .row{
+  padding: 25px 0;
+  color: #fff;
+  font-weight: 900;
+}
+footer span{ 
+  margin: 0 70px 0 30px;
+  text-align: center;
+  font-family: 'coolvetica_rg';
+  font-weight: 100;
+}
+footer{
+  border-top: 1px solid #d6d6d6;
+  background-color: #ea393e;
+}
+footer a{
+  color: #000;
+}
+footer a:hover{
+  color: #000;
+}
+#contacto a, #contacto a:hover{
+  color: inherit;
+}
+.inmuebles .contenedor-img{
+  height: 200px;
+}
+.lista-paginas{
+  display: inherit;
+}
+@media (min-width: 575.98px) {
+  .inmuebles .contenedor-img{
+    height: 220px;
+  }
+  #p_similares .contenedor-img{
+    height: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+    font-size: 1.2rem;
+  }
+  #informacion .separador{
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  .titulo{
+    margin: 100px 0;
+    padding-bottom: 10px;
+  }
+  #carousel .fondo{
+  padding-top:0;
+  }
+  #carousel .fondo .box-search, #carousel .card{
+    position: relative;
+    z-index:9;
+    padding: 30px 30px 0;
+    background-color: #fff;
+    -webkit-box-shadow: inset 4px -13px 32px -24px rgba(0,0,0,0.37);
+  -moz-box-shadow: inset 4px -13px 32px -24px rgba(0,0,0,0.37);
+  box-shadow: inset 4px -13px 32px -24px rgba(0,0,0,0.37);
+  }
+  #carousel .fondo .input-group {
+    position: relative;
+    width: 100%;
+  }
+  #carousel .linea{
+    border-right: 1px solid #e5e5e5;
+  }
+  #carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color:#fff;
+    z-index: 1;
+  }
+  #carousel .overlay .container,
+  #carousel .overlay .row {
+    height: 100%;
+  }
+  .pagination a{
+    color: #000000;
+  }
+  .inmuebles .contenedor-img{
+    height: 240px;
+  }
+
+}
+.indicador{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #424242;
+  background-color: #fff;
+  border: none;
+}
+
+/* propietarios y arrendatarios iframe */
+#iframe{
+  overflow: hidden;
+}
+#iframe iframe{
+  width: 100vw;
+  height: 100vh;
+}
+footer span{ 
+  text-align: center;
+}
+@media (min-width: 991.98px) {
+  .inmuebles .contenedor-img{
+    height: 170px;
+  }
+  #p_similares .contenedor-img{
+    height: 350px;
+  }
+
+}
+
+@media (min-width: 1199.98px) {
+  .inmuebles .contenedor-img{
+    height: 225px;
+  }
+  #p_similares .contenedor-img{
+    height: 225px;
+  }
+}
+
+@media (min-width: 1600.98px) {
+  .inmuebles .contenedor-img{
+    height: 350px;
+  }
+  #p_similares .contenedor-img{
+    height: 350px;
+  }
+}
+
+@media (max-width: 575.98px){
+  .margen-arrendar{
+    margin-left: 0;
+  }
+  .margen-arrendar .margin-arrendar-top{
+    margin-top:1rem;
+  }
+  .m-top{
+    margin-top: 10px;
+  }
+}

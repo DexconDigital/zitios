@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'coolvetica_rg';
+    src: local('coolvetica_rg'),
+    url(../fonts/coolvetica_rg.ttf),
+    url(../fonts/coolvetica_rg.ttf);
+}
+@font-face {
+    font-family: 'lane-narrow';
+    src: local('lane-narrow'),
+    url(../fonts/LANENAR_.ttf);
+}

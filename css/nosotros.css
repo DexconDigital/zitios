@@ -1,0 +1,115 @@
+@import 'regular.css';
+@import 'fuentes.css';
+/* Fuentes */
+body{
+    font-family: 'lane-narrow', sans-serif;
+    background: #f8f3f3 no-repeat;
+}
+a{
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'coolvetica_rg'
+}
+#arrendar, #valores, #nosotros, #agentes_nosotros {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+#arrendar, #valores{
+    background-color: #fff;
+}
+#arrendar .container-fluid, #valores .container-fluid, #nosotros .container.fluid, #agentes_nosotros .container-fluid{
+    padding-top: 1.6em;
+    padding-bottom: 1.6em;
+}
+.sevice_title .sub_title {
+    width: 77%;
+    margin: auto;
+    margin-bottom: 70px;
+    line-height: 23px;
+}
+/* layaout pinteres */
+.card-columns {
+    column-count: 1;
+    max-width: 100%;
+  }
+#arrendar .card, #agentes_nosotros .card{
+    border-color: #FD6064;
+    max-width: 21rem;
+    -webkit-box-shadow: -1px 1px 5px -2px rgba(255,0,0,1);
+-moz-box-shadow: -1px 1px 5px -2px rgba(255,0,0,1);
+box-shadow: -1px 1px 5px -2px rgba(255,0,0,1);
+}
+
+#arrendar .card-body{
+    text-align: center;
+}
+#arrendar .card-text{
+    font-weight: 600;
+    font-size: 0.9em;
+    text-align: left;
+    line-height: 25px;
+}
+#agentes_nosotros .card{
+    max-width: 25rem;
+    margin-top: 1.5em;
+}
+#agentes_nosotros .card img{
+    padding: 10px;
+}
+#agentes_nosotros .card-title, #agentes_nosotros .card-subtitle{
+text-align: center;
+}
+#agentes_nosotros .fa-phone, #agentes_nosotros .fa-whatsapp{
+    font-size: 1.8em;
+    color: #000;
+}
+#agentes_nosotros .fa-phone:hover, #agentes_nosotros .fa-whatsapp:hover{
+    transform: scale(1.4);
+}
+#valores .card{
+    border: none;
+}
+#valores .item{
+    border-left: 1px solid #FD6064;
+    display:flex;
+    justify-items: center;
+    padding-left: 5px;
+}
+#valores .card .fas{
+    font-size: 4.2rem;
+}
+#calidad .box-des{
+    color: #000;
+    font-weight: 700;
+    padding: 20px;
+}
+
+@media (max-width: 576px) { 
+    #arrendar .margenes-layaout-card{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+}
+@media (min-width: 768px) { 
+    .card-columns {
+    column-count: 2;
+  } 
+}
+
+@media (min-width: 992px) { 
+    .card-columns {
+        column-count: 3;
+      } 
+      .sevice_title .sub_title {
+        width: 50%;
+    }
+ }
+
+@media (min-width: 1200px) {
+    #mision {
+        text-align: center;
+        padding: 80px 60px;
+    }
+ }

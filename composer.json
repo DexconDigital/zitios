@@ -1,0 +1,12 @@
+{
+    "name": "sebastian/zitios-inmobiliaria",
+    "authors": [
+        {
+            "name": "sebastian",
+            "email": "me@sebastiancastiblanco.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}

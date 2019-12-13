@@ -1,0 +1,18 @@
+.miniaturas .carousel-indicators{
+    position: inherit;
+    margin: 0;
+    justify-content: flex-start;
+    height: auto;
+}
+.miniaturas .carousel-indicators li{
+    width: 20%;
+    height: auto;
+}
+
+.inmuebles-description{
+    list-style: none;
+    display: block;
+}
+.inmuebles-description li{
+    display: inline-block;
+}

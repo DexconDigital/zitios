@@ -1,0 +1,46 @@
+/* //estilos Carrousel */
+.carousel-inner{
+    height: 199px;
+    text-align: center;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(133,121,133,1) 46%, rgba(209,209,209,1) 95%, rgba(254,254,254,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(46%, rgba(133,121,133,1)), color-stop(95%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(133,121,133,1) 46%, rgba(209,209,209,1) 95%, rgba(254,254,254,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(133,121,133,1) 46%, rgba(209,209,209,1) 95%, rgba(254,254,254,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(133,121,133,1) 46%, rgba(209,209,209,1) 95%, rgba(254,254,254,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(133,121,133,1) 46%, rgba(209,209,209,1) 95%, rgba(254,254,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#fefefe', GradientType=0 );
+}
+.carousel-item{
+    height: 100%;
+}
+.carousel-item img{
+    height: 100%;
+}
+@media (min-width: 576px) {
+    .carousel-inner{
+        height: 230px;
+    }
+}
+@media (min-width: 768px) {
+    .carousel-inner{
+        height: 500px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .carousel-inner{
+        height: 510px;
+    }
+}
+@media (min-width: 1200px) {
+    .carousel-inner{
+        height: 520px;
+    }
+}
+@media (min-width: 1600px) {
+    .carousel-inner{
+        height: 700px;
+    }
+}

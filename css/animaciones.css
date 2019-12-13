@@ -1,0 +1,30 @@
+/* Hovers de los iconos del menu */
+#menu .fa-facebook:hover, #menu .fa-instagram:hover, #menu .fa-youtube:hover{
+    transform: scale(1.3);
+}
+#menu .fa-facebook:hover{
+    color: #3b5998 !important;
+}
+#menu .fa-instagram:hover{
+    color: #bc2a8d !important;
+}
+#menu .fa-youtube:hover{
+    color: #c4302b !important;
+}
+#agentes .efecto:hover{
+    transform: scale(1.01);
+    background-color: #fff;
+}
+#destacadas .btn-light:hover{
+    background-color: #ea393e;
+    color: #fff;
+}
+.font{
+    -webkit-box-shadow: -2px 2px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 5px -1px rgba(0,0,0,0.75);
+box-shadow: -2px 2px 5px -1px rgba(0,0,0,0.75);
+}
+.product-flags .product-flag:hover, .product-flags2 .product-flag:hover{
+    transform: scale(1.3);
+  }
+/* fin de hovers de los iconos */
